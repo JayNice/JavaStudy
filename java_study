@@ -13,3 +13,7 @@
 13 向下转型：A→B:A a = new B();[建立关系],B b = (B) a;向下转型
 14 对象 instanceof 类，返回true或者false
 15 由于对象多态性，抽象类跟接口本来是不是能实例化，但是通过向上转型，调用的抽象方法都是子类中覆写过的方法
+16 Object 类可以接收对象，可以接收数组
+17 包装类是int 和 Integer的互相转换
+18 一个类的内部还有一个类，叫内部类，如过内部类只使用一次，则可定义为匿名内部类。
+19 interface A{public void print(){}}; class X{fun(new A()){print(){system.out("hello")}}}
